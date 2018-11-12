@@ -9,7 +9,7 @@ if(isset($_SESSION['session']))
 <title>..:PAGINA PRINCIPAL:..</title>
 </head>
 
-<body bgcolor="#F5A9F2">
+<body bgcolor="#e0e3e3">
 	<center><h2>BIENVENIDO</h2></center>
 	
 	<a href="salir.php"><h4>CERRAR SESSION</h4></a>
