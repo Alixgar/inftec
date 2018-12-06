@@ -21,4 +21,5 @@ echo'<script type="text/javascript">
 	  alert("Registrarse para ver este contenido");
 	  window.location="http://localhost/login/index.php"
 </script>';
+session_destroy();
 ?>
