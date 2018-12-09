@@ -16,6 +16,12 @@ if(isset($_SESSION['session']))
 					  <p class="name"><a href="Funciones.php">sistemas computacionales</a></p>
 						<p>&#9742 1111 - 1111</p>
 				  </div></center>
+				  <center> <img src="2.png">
+                       <p class="name">
+                         <a href="Funciones.php">ingenieria civil</a></p>
+                       <p>&#9742 2222 - 2222</p>
+                       </div>
+					</center>
 
 	<a href="salir.php"><h4>CERRAR SESSION</h4></a>
 </body>
