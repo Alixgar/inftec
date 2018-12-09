@@ -1,7 +1,7 @@
 //Creamos dos variables que tendrán las expresiones regulares a ser comprobadas
 //Una para el correo y otra para verrficar solo letras
 var expr = /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/;
-var expr1 = /^[a-zA-Z\sáéíóúñ]*$/;
+var expr1 = /^[a-zA-Z]*$/;
 
 $(document).ready(function () {
 	$("#boton").click(function (){ //función para el boton de enviar

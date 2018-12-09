@@ -17,18 +17,18 @@ $patron1 = ("/^[a-z]+$/i"); //Expresión regular para solo caracteres
 if( $nombre == '' || preg_match(!$patron1, $nombre) || $apellidos == '' || preg_match(!$patron1, $apellidos) || $correo == '' || !filter_var($correo, FILTER_VALIDATE_EMAIL) || ($pass != $repass) || $pass == "" || $repass == "" ){
 		echo'<script type="text/javascript">
 			 alert("Error: Datos invalidos en el formulario");
-			 window.location="http://localhost/login/php/registro.php"
+			 window.location="http://localhost/inftec/login/php/registro.php"
 			 </script>';
-		
+
 	}
-	//Si la validación fue exitosa entonces 
+	//Si la validación fue exitosa entonces
 	//Creamos un nuevo objeto de la clase y
-	//Usamos el método de agregar usuario con lo parámetros 
+	//Usamos el método de agregar usuario con lo parámetros
 	//Correspondientes
 	else{
 		$mydb = new myDBC();
-		$pass_oculto =($pass);
-		$mydb->agregaUsuario($nombre, $apellidos, $correo, $pass_oculto);	
+		$pass_oculto = crypt($pass, '_er#.lop');
+		$mydb->agregaUsuario($nombre, $apellidos, $correo, $pass_oculto);
 	}
 ?>
 
@@ -40,7 +40,7 @@ if( $nombre == '' || preg_match(!$patron1, $nombre) || $apellidos == '' || preg_
 </head>
 
 <body bgcolor="blue">
-	
+
 </body>
 
 </html>
