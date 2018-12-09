@@ -29,12 +29,8 @@ require_once("myDBC.php");
 					<tr>
 						<td>
 							<div></div>
-						<div class="wrap">
-						<div></div>
- 
-				 <center> <div>              
-				             
-			 
+						<div class="wrap"></div> 
+				 <center> <div>        
 				 <img src="ISC.jpg"></a>
 					  <p class="name"><a href="Funciones.php">sistemas computacionales</a></p>
 						<p>&#9742 1111 - 1111</p>
@@ -52,22 +48,18 @@ require_once("myDBC.php");
 					</td>
 </tr>
 <tr>
-<td>
-                 <div>
-					<center>
+                 <td>
+				 <center> <div>					
 				<img src="IGE.jpg">
 					<p class="name"><a href="Funciones.php">ingenieria en gestion</a></p>
 							<p>&#9742 3333 - 3333</p>
 						</div> 
 						</center>
-						<td></td>
+				</td>
+				  <td></td>	
 				  <td></td>			  					
-							
-</td>
-<td>
-	
-					          <div>
-					<center>
+		<td>
+	              <center><div>
 					<img src="II.jpg">						
                 	<p class="name"><a href="Funciones.php">ingenieria industrial</a></p>
 							<p>&#9742 4444 - 4444</p>
@@ -89,18 +81,18 @@ require_once("myDBC.php");
 							
 </td>
 <td>
-	
-					          <div>
-					<center>
-
+              <center>  <div>
 					<img src="admin.png">						
                 	<p class="name"><a href="Funciones.php">Administracion</a></p>
 							<p>&#9742 4444 - 4444</p>
 						</div>
-					</center>
+						</center>
+						</table>
+						</td>
+					
 				</ul>
-  </header>
-  </div>				<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  </div>			
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 		<script src="../js/jquery.liveFilter.js" type="text/javascript"></script>
 		<script type="text/javascript">
 			$('#directory').liveFilter('#search-box', 'td', { filterChildSelector: '.name'});
