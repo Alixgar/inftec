@@ -4,7 +4,7 @@
    // Conexion a la base de datos mediante PDO
      public static function get_conection(){
         //variables para la conexion
-        $user="paul"; $pass=".4V-2D7+=7:QMF"; $host="localhost"; $dbname="ittlaxia_infotec";
+        $user="ittlaxia_login1"; $pass=".4V-2D7+=7:QMF"; $host="localhost"; $dbname="ittlaxia_infotec";
         //Se intenta conectar con los datos asignados
         try{
             //se crea la instancia PDO con sus parametros de conexion
