@@ -34,8 +34,8 @@ require_once("myDBC.php");
  
 				 <center> <div>              
 				             
-				 
-                   <img src="ISC.jpg"></a>
+			 
+				 <img src="ISC.jpg"></a>
 					  <p class="name"><a href="Funciones.php">sistemas computacionales</a></p>
 						<p>&#9742 1111 - 1111</p>
 				  </div></center>
