@@ -22,6 +22,13 @@ if(isset($_SESSION['session']))
                        <p>&#9742 2222 - 2222</p>
                        </div>
 					</center>
+					<center>
+					<img src="3.png">
+					<p class="name">
+                <a href="Funciones.php">ingenieria gestion</a></p>
+							<p>&#9742 3333 - 3333</p>
+						</div> 
+						</center>
 
 	<a href="salir.php"><h4>CERRAR SESSION</h4></a>
 </body>
