@@ -9,7 +9,7 @@ require_once("myDBC.php");
 	<meta charset="UTF-8">
 	<body bgcolor="#FFC0CB">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
-	<title>Pagina principal</title>
+	<title>Buscador</title>
 	<link rel="stylesheet" type="text/css" href="../css/style2.css">
 	</head>
 	<body>
@@ -33,6 +33,7 @@ require_once("myDBC.php");
 						<div></div>
  
 				 <center> <div>              
+				             
 				 
                    <img src="ISC.jpg"></a>
 					  <p class="name"><a href="Funciones.php">sistemas computacionales</a></p>
