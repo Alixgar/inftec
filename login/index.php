@@ -42,7 +42,7 @@ if(isset($_SESSION['session']))
 				</form>
 			</div><!--fin cuerpo-->
 
-			<div id="pie">Sistema de Login Y Registro</div>
+			<div id="pie">GESTION DE PROYECTOS</div>
 		</div><!-- fin contenedor -->
 
 	</div><!--fin envoltura-->
