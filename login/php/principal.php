@@ -11,6 +11,11 @@ if(isset($_SESSION['session']))
 
 <body bgcolor="#F5A9F2">
 	<center><h2>BIENVENIDO</h2></center>
+	<center> <div>
+	<a href="Funciones.php"><img src="1.png"></a>
+					  <p class="name"><a href="Funciones.php">sistemas computacionales</a></p>
+						<p>&#9742 1111 - 1111</p>
+				  </div></center>
 
 	<a href="salir.php"><h4>CERRAR SESSION</h4></a>
 </body>
