@@ -7,7 +7,7 @@ require_once("myDBC.php");
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<body bgcolor="#FFC0CB">
+	<body bgcolor="#999392">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
 	<title>Buscador</title>
 	<link rel="stylesheet" type="text/css" href="../css/style2.css">
