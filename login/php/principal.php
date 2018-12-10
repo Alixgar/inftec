@@ -93,4 +93,3 @@ require_once("myDBC.php");
 		</script>
 	</body>	
 </html>
-<?php
