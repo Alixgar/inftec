@@ -11,25 +11,19 @@ require_once("myDBC.php");
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
 	<title>Buscador</title>
 	<link rel="stylesheet" type="text/css" href="../css/style2.css">
-	</head>
-	<body>
-	<?php
-		echo $_SESSION['id']
-		?>
-		<center>
-				<br><font face="Arial" size="+1" ><a href="salir.php"style="float:right" >Cerra Sesion</a></font></br>					
-		<div class="wrapper">
-			<div id="title">
+	</body>
+		<center><br><font face="Arial" size="+1" ><a href="salir.php"style="float:right" >Cerra Sesion</a></font></br></center>				
+		<div class="wrapper"></div>
+			<div id="title"></div>
 			<center><h1>seleccione una imagen para conocer los departamentos </h1></center>
 				<input id="search-box" type="text" name="search">
-			</div>
-			<div id="directory-cont"><ul id="directory">
-						 <center> <div>              
+			<div id="directory-cont"><ul id="directory"></div>
+			<div>              
 				 <table>
 					<tr>
-						<td>
-							<div></div>
+						<div></div>
 						<div class="wrap"></div> 
+			</div>
 				 <center> <div>        
 				 <img src="ISC.jpg"></a>
 					  <p class="name"><a href="Funciones.php">sistemas computacionales</a></p>
@@ -52,7 +46,7 @@ require_once("myDBC.php");
 				 <center> <div>					
 				<img src="IGE.jpg">
 					<p class="name"><a href="Funciones.php">ingenieria en gestion</a></p>
-							<p>&#9742 3333 - 3333</p>
+						<p>&#9742 3333 - 3333</p>
 						</div> 
 						</center>
 				</td>
