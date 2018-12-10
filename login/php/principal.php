@@ -15,7 +15,7 @@ require_once("myDBC.php");
 		<center><br><font face="Arial" size="+1" ><a href="salir.php"style="float:right" >Cerra Sesion</a></font></br></center>				
 		<div class="wrapper"></div>
 			<div id="title"></div>
-			<center><h1>seleccione una imagen para conocer los departamentos </h1></center>
+			<center><h1>Seleccione una imagen para conocer los departamentos del ITT</h1></center>
 				<input id="search-box" type="text" name="search">
 			<div id="directory-cont"><ul id="directory"></div>
 			<div>              
