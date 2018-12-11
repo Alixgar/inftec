@@ -31,7 +31,7 @@
 					<!--=============================================================================================-->
 					<!-- En seguida de cada input se agregará un div con el mensaje de error-->
 					<p><label for="apellidos">Apellidos:</label></p>
-						<input name="apellidos" type="text" id="apellidos" class="apellidos" placeholder="Ingresa tus apellidos" /></p>
+						<input name="apellidos" type="text" id="apellidos" class="apellidos" placeholder="Ingresa tus apellidos" autofocus=" "/ ></p>
 					    <div id="mensaje2" class="errores"> Ingresa solo caracteres</div>
 					<!--=============================================================================================-->
 
