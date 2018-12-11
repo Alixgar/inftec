@@ -9,7 +9,7 @@ $apellidos = trim($_POST['apellidos']);
 $correo = trim($_POST['correo']);
 $pass = trim($_POST['pass']);
 $repass = trim($_POST['repass']);
-$patron1 = ("/^[a-z]+$/i"); //Expresión regular para solo caracteres
+$patron1 = ("/^[a-_]+$/i"); //Expresión regular para solo caracteres
 
 //Validamos todos los campos con OR, si al menos hay uno que no cumpla la condición
 //El if se anula y mostramos un error y redirigimos al registro
