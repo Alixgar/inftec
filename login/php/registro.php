@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Formulario de registro</title>
+	<title>Formulario</title>
 	<meta charset="utf-8">
 	<!-- Se agrega la biblioteca de jquery y enseguida nuestro js de funciones-->
 	<script type="text/javascript" src="./../js/jquery-1.10.2.min.js" ></script>
@@ -10,6 +10,7 @@
 </head>
 
 <body>
+	
 	<div id="registrar">
           	<a href="../index.php"</a>Regresar</a>
     </div>
@@ -24,7 +25,7 @@
 				<form id="form-login" action="agregar.php" method="post" >
 
 					<p><label for="nombre">Nombre:</label></p>
-						<input name="nombre" type="text" id="nombre" class="nombre" placeholder="Ingresa tu nombre" autofocus=""/ ></p>
+						<input name="nombre" type="text" id="nombre" class="nombre" placeholder="Ingresa tu nombre" autofocus=" "/ ></p>
 						<div id="mensaje1" class="errores"> Ingresa solo caracteres</div>
 
 					<!--=============================================================================================-->
@@ -49,7 +50,7 @@
 				</form>
 			</div>
 
-			<div id="pie">Gestion de proyectos</div>
+			<div id="pie">Sistema de Login Y Registro</div>
 		</div><!-- fin contenedor -->
 
 	</div>
