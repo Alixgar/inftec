@@ -27,7 +27,7 @@ if( $nombre == '' || preg_match(!$patron1, $nombre) || $apellidos == '' || preg_
 	//Correspondientes
 	else{
 		$mydb = new myDBC();
-		$pass_oculto = crypt($pass, '_er#.lop');
+		$pass_oculto = md5($pass);
 		$mydb->agregaUsuario($nombre, $apellidos, $correo, $pass_oculto);
 	}
 ?>
